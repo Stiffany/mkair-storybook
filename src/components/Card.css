@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100%;
+    overflow-y: scroll;
+}
+.card {
+    background-color: #f0eeeb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    margin: 0;
+    padding: 8px 0 8px 8px;
+}
+.card-description {
+    font-size: 16px;
+    line-height: 21px;
+    color: #818078;
+    margin: 0px;
+    padding: 8px 0 16px 8px;
+}
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    background-size: cover;
+    background-position: center;
+  }
+  
